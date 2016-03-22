@@ -1,0 +1,60 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>Yahoo Finance Ticker - Intro to APIs with AJAX</title>
+	<link rel="stylesheet" type="text/css" href="footables/css/footable.core.css">
+	<link rel="stylesheet" type="text/css" href="footables/css/footable.standalone.css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<div id="header">
+	<div id="which-sym">
+	Which stock symbol do you want to search for?
+	</div>
+	<form id="search" >
+		<input type="text" id="symbol" placeholder="e.g., GOOG">
+		<input type="submit" value="Get a quote">
+	</form>
+</div>		
+
+<div id="stock-details">
+	<input type="text" id="filter" placeholder="Enter a data filter here">
+	<table class="footable table" data-filter="#filter" data-page-navigation=".pagination" data-page-size="5">
+	<thead>
+		<tr>
+			<th data-hide="phone">Stock Symbol</th>
+			<th data-hide="phone">Company Name</th>
+			<th data-hide="phone">Asking Price</th>
+			<th data-hide="phone">Daily Change</th>
+			<th data-hide="phone">Daily High</th>
+		</tr>
+	</thead>
+	<tbody id="ticker-body">
+		<tr>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+		</tr>
+
+	</tbody>
+	<tfoot>
+		<tr>
+			<td colspan="5">
+				<div class="pagination pagination-centered"></div>
+			</td>
+		</tr>
+	</tfoot>
+	</table>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script type="text/javascript" src="footables/js/footable.js"></script>
+<script type="text/javascript" src="footables/js/footable.sort.js"></script>
+<script type="text/javascript" src="footables/js/footable.filter.js"></script>
+<script type="text/javascript" src="footables/js/footable.paginate.js"></script>
+<script type="text/javascript" src="scripts.js"></script>
+
+</body>
+</html>
