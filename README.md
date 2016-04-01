@@ -1,5 +1,5 @@
-# Used Yahoo Finance API and FooTables to create stock ticker application 
-###My first experience using API's and AJAX
-###AJAX rocks.BTW.
+#Stock Ticker App using Yahoo Finance API and FooTables
+###First experience using an API and AJAX
 ###Go on and get.JSON! 
 ###GET it?
+###AJAX rocks.btw.Just sayin.
