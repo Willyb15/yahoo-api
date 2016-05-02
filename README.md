@@ -5,5 +5,5 @@
 ```js
 .getJSON();
 ```
-###AJAX rocks.btw.Just sayin.
+###AJAX is cool btw. Just sayin.
 ![alt text](finance.png "Description goes here")
